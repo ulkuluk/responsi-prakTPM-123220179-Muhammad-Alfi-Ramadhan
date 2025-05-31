@@ -110,7 +110,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  // Widget _moviesList (GridView) yang sudah ada sebelumnya
   Widget _phonesList(BuildContext context, List<Phone> phones) {
     return GridView.builder(
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
